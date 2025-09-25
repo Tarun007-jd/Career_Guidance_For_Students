@@ -1,0 +1,66 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+# OS & system files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Build & test artifacts
+coverage/
+*.lcov
+*.tsbuildinfo
+build/
+out/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swn
+*.swo
+
+# Dependency lock files (if not needed)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Miscellaneous
+.eslintcache
+.parcel-cache
+.cache
+.next
+.vercel
+.turbo
+.firebase
+.env.*
+.npm
+.yarn
+.pnp.*
+.sass-cache
+.nyc_output
+.vscode-test
+.history
